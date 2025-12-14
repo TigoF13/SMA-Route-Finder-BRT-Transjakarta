@@ -5,8 +5,6 @@ The system implements the **Slime Mould Algorithm (SMA)** to determine optimal r
 
 The project focuses on applying a **metaheuristic optimization approach** to public transportation routing problems and supports experimental evaluation in an academic context.
 
----
-
 ## 🎯 Research Objectives
 
 This project aims to:
@@ -15,8 +13,6 @@ This project aims to:
 - Apply the Slime Mould Algorithm (SMA) for route optimization  
 - Analyze the behavior of SMA under different routing preference scenarios  
 - Support experimental comparison of routing results for academic research  
-
----
 
 ## 📌 Key Features
 
@@ -35,16 +31,12 @@ This project aims to:
 - **Experimental Evaluation Support**  
   Generates evaluation logs for analysis and thesis reporting.
 
----
-
 ## 🗺️ Data Representation
 
 - **Nodes** represent Transjakarta BRT stops  
 - **Edges** represent corridor segments between stops  
 - **Spatial Data Format**: GeoJSON  
 - **Graph Processing**: NetworkX  
-
----
 
 ## 🧠 Slime Mould Algorithm (SMA) Overview
 
@@ -56,8 +48,6 @@ In this project:
 - Adaptive weights guide exploration and exploitation phases
 - Iterative optimization refines route selection based on defined preferences
 - The algorithm balances global exploration and local exploitation
-
----
 
 ## 🚀 Getting Started
 
@@ -78,8 +68,6 @@ The project was developed and tested using the following environment:
 - NetworkX  
 - Shapely  
 - Matplotlib 
-
----
 
 ## 🛠️ Installation
 
