@@ -1,0 +1,2508 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lebak Bulus",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7740154, -6.2893833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Makasar",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8811519, -6.2901743]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underpass Lebak Bulus",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7800648, -6.286794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pondok Indah",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7837412, -6.2672131]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanah Kusir",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7817326, -6.2569667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bungur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7816796, -6.2526623]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mayestik",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.790744, -6.2419384]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Velbak",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7855654, -6.2393716]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kebayoran",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7832939, -6.2384128]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kebayoran Lama",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7776043, -6.2382791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seskoal",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7712567, -6.2379806]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cipulir",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.765335, -6.2378611]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swadarma Paragon",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7606594, -6.2375622]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petukangan D'MASIV",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7474713, -6.2364638]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JORR",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7547932, -6.2361675]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simprug",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.786562, -6.2339242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puri Beta 1",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7259689, -6.2305674]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puri Beta 2",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7237369, -6.2304567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ciledug",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.709009, -6.2236073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Permata Hijau",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7832372, -6.2213894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arteri",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7775899, -6.2183643]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pos Pengumben",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7722787, -6.212914]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kelapa Dua Sasak",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7695695, -6.2055495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Duri Kepa",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7684587, -6.1852602]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kota Bambu Arah Utara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7967574, -6.1844398]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanjung Duren Arah Utara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7921696, -6.1755226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kedoya Panjang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7659048, -6.1744915]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grogol Reformasi",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7877624, -6.1672339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grogol",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7894945, -6.1668756]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jelambar",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7864895, -6.1665715]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kedoya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.763075, -6.1644528]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Damai",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7750972, -6.1633706]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taman Kota",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7578585, -6.1571784]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taman Sari",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8166266, -6.1493231]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jembatan Gantung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7494154, -6.1555107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jembatan Baru",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7303779, -6.1548327]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pesakih",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7152567, -6.1548428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pulo Nangka",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7381116, -6.1546394]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pulo Gebang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9532179, -6.213316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalideres",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.705457, -6.1544947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kali Besar",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8114091, -6.1353307]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kali Grogol",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7903715, -6.1610798]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rawa Buaya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7262153, -6.1539383]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sumur Bor",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.719412, -6.1530602]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jembatan Besi",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7948977, -6.1520138]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jembatan Dua",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.793452, -6.1432808]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jembatan Tiga",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7926478, -6.1334129]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penjaringan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7919703, -6.1262559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pluit",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.790127, -6.1157443]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ragunan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8188357, -6.3056923]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blok M",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8020098, -6.2433513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ASEAN",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8009342, -6.239935]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CSW",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7984043, -6.2398339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Santa",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8078036, -6.2391579]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rawa Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8162619, -6.2388453]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masjid Agung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7984126, -6.23642]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bundaran Senayan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8010087, -6.2279138]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Widya Chandra Telkomsel",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8175278, -6.226623]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Senayan Bank DKI",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8056753, -6.2242434]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Polda Metro Jaya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8102583, -6.2210445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Semanggi",
+        "difficult_transfer": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8129076, -6.2205454]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Senen Toyota Rangga",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8426782, -6.1783066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bendungan Hilir",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.815326, -6.2170527]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gerbang Pemuda Arah Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8083554, -6.2138536]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petamburan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7997238, -6.2020456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kemanggisan Arah Utara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7969256, -6.1898157]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomang Raya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8004497, -6.1768818]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tarakan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8101291, -6.1711911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petojo",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8169838, -6.169963]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roxy",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7967534, -6.1662482]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pemuda Merdeka",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9048788, -6.1924401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harmoni",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8198027, -6.1624775]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sawah Besar",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8185945, -6.157283]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glodok",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.815114, -6.143415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangga Besar",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.817422, -6.1532312]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangga Dua Raya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8179377, -6.1375625]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kota",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8150795, -6.1369032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gedong Panjang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8060217, -6.1325757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Ragunan Ar-Raudhah",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8220919, -6.2946119]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jati Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8236118, -6.2909832]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Kuningan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.827942, -6.2375396]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jati Padang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8262268, -6.2854164]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pejaten",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8297231, -6.2783923]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buncit Indah",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8302742, -6.274322]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warung Jati",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8297682, -6.2623684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warung Buncit",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8280812, -6.2569819]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Duren Tiga",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8269756, -6.2523855]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mampang Prapatan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8256982, -6.2426846]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tegal Parang Arah Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8301942, -6.2388532]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tegal Mampang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8308893, -6.240211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underpass Kuningan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8287722, -6.2348935]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denpasar Arah Timur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8216622, -6.2325927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kuningan Madya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8304388, -6.2131722]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karet",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8200103, -6.2124061]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Setiabudi",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8301828, -6.2093191]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dukuh Atas",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8222519, -6.2052202]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galunggung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8234005, -6.204455]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tosari",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8230733, -6.1965135]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bundaran HI ASTRA",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8229881, -6.1936831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "M.H. Thamrin",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.822981, -6.1880739]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kebon Sirih Arah Selatan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8232872, -6.1847085]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kebon Sirih Arah Utara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8227819, -6.1825948]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kebon Sirih Jeruk",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7689111, -6.1942894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Balai Kota",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.826339, -6.1806199]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monumen Nasional",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8227883, -6.1761778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gambir 1",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8304417, -6.1745652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juanda",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8303536, -6.1680427]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pecenongan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8281713, -6.1678513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mangga Dua",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8259804, -6.1361284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pluit Selatan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7997016, -6.1252147]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pancoran Tugu Arah Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8438123, -6.2435879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum Sejarah Jakarta",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8121194, -6.1339599]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tebet Eco Park Arah Timur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8520807, -6.2430117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pancoran Arah Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.837278, -6.2416955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patra Kuningan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8320224, -6.232671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kuningan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8332457, -6.2286438]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rasuna Said",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.832239, -6.2217428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karet Kuningan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8307704, -6.2168139]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manggarai",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8473534, -6.2088209]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Rumput",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8411525, -6.207092]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Halimun",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8333855, -6.2051674]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paseban",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8510019, -6.1967934]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salemba",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8488849, -6.193371]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kramat Sentiong",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8459168, -6.1879722]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pal Putih",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8439751, -6.1846084]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jaga Jakarta",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8421204, -6.1780698]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Senen Raya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8401963, -6.1762452]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pejambon",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8326593, -6.1755304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RSPAD",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8367599, -6.1754693]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Istiqlal",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8305558, -6.172459]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanah Tinggi",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8523506, -6.171206]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Baru",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8347871, -6.1661176]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lapangan Banteng",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8391063, -6.1660083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Baru Timur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8381814, -6.1623241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kemayoran",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8514422, -6.1579064]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jembatan Merah",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8343222, -6.1467309]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gunung Sahari",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8324135, -6.1367854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pademangan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8316828, -6.1337086]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ancol",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8307397, -6.1274733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flyover Raya Bogor",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8658511, -6.3064361]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flyover Kuningan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8276071, -6.2028489]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trikora",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8681028, -6.3019711]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kramat Jati",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8666967, -6.2687728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PGC",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8654284, -6.2619943]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cikoko Arah Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8580789, -6.243374]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ciliwung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8635248, -6.2429607]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gelanggang Remaja",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8679072, -6.235436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bidara Cina",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8671732, -6.2297395]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jatinegara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8681347, -6.2214279]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bali Mester",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8663435, -6.2157127]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matraman Baru",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.861183, -6.2129793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matraman",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8539783, -6.1994722]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kesatrian",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8592602, -6.2085666]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tegalan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8572121, -6.2030943]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pemuda Pramuka",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8749828, -6.1930327]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Pramuka 1",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8731031, -6.1920025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Genjing",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8609053, -6.1944119]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Utan Kayu",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8645812, -6.1927009]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8546962, -6.1743806]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rawa Selatan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8582067, -6.1738604]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Cempaka Putih",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8624967, -6.1722633]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cempaka Baru",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8665674, -6.170368]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Landasan Pacu",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8542379, -6.1521019]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Danau Agung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8579886, -6.1467943]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Danau Sunter",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8570641, -6.1410495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunter Utara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8591217, -6.1396544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunter Boulevard Barat",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8889027, -6.149605]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jembatan Item",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8552348, -6.1309119]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jakarta International Stadium",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8555698, -6.1268284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanah Merdeka",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8737221, -6.3078486]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Induk",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8721143, -6.2942446]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cawang Cililitan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8699672, -6.2577081]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cililitan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8663204, -6.2624658]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cawang Sentral",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8733383, -6.250717]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cawang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8711967, -6.2459348]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Cawang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8759061, -6.2447045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cawang Baru",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8687493, -6.2436286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Halim",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8780541, -6.2390596]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kebon Nanas",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8763291, -6.2315321]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pedati Prumpung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8743787, -6.220082]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flyover Jatinegara Arah Barat dan Timur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.873658, -6.2151094]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stasiun Jatinegara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8694151, -6.2153932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Enjo",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8783506, -6.2148309]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pisangan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8737308, -6.2054928]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Utan Kayu Rawamangun",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8740094, -6.1975054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Pramuka 2",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8746012, -6.1922349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pramuka Sari",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8685615, -6.1921996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flyover Pramuka",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8544107, -6.1988319]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kayu Putih Rawasari",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8753722, -6.187479]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pulomas Bypass",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8759855, -6.1769055]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cempaka Putih",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8764196, -6.1741517]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sumur Batu",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8703564, -6.1685998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cempaka Mas",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8758494, -6.1665565]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Cempaka",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8792582, -6.1657373]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunter Karya",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8708158, -6.1375017]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kampung Rambutan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8816102, -6.3092286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kampung Melayu",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8671761, -6.2245127]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pinang Ranti",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8863514, -6.291249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flyover Pondok Kopi",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.930524, -6.2166432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Buaran",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9243832, -6.2159541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buaran",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9177178, -6.215114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penggilingan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9395058, -6.214454]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flyover Cipinang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.882391, -6.2145791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kampung Sumur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9118802, -6.2143679]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cipinang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8894665, -6.2137504]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klender",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9030259, -6.2135566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stasiun Klender",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8986587, -6.2134993]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walikota Jakarta Timur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9454095, -6.2124271]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pemuda Rawamangun",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8917018, -6.1934531]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Layur",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8990986, -6.1934943]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Velodrome",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8883577, -6.1934269]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kayu Jati",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8836859, -6.1932926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rawamangun",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8803945, -6.1929566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kwitang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8384785, -6.1813288]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Pulogadung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9058963, -6.1874228]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pulo Gadung",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.9086933, -6.1831819]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bermis",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8985541, -6.1782304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pulomas",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8925114, -6.1745862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perintis Kemerdekaan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8886452, -6.1717702]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pedongkelan",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8825171, -6.1680313]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kodamar",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8816913, -6.1619979]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunter Kelapa Gading",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8905715, -6.1427358]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plumpang",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8934149, -6.1284477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walikota Jakarta Utara Arah Utara",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8930871, -6.1188533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Koja",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8929629, -6.1140913]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mambo",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8924663, -6.1100604]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanjung Priok",
+        "difficult_transfer": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8813047, -6.1098309]
+      }
+    }
+  ]
+}

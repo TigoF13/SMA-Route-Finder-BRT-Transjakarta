@@ -1,0 +1,63 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Poppins", sans-serif;
+}
+
+h4,
+h5,
+h6 {
+    color: #222;
+}
+
+.card {
+    border-radius: 14px;
+}
+
+.card-header {
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.btn-primary {
+    background-color: #0055b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003f8a;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #f1f3f5;
+}
+
+#mapRekomendasi,
+#mapAlternatif {
+    background: #e9ecef;
+    border: 2px solid #dee2e6;
+}
+
+/* Menjaga agar form input tidak terlalu padat */
+#routeForm .form-label {
+    font-weight: 500;
+}
+
+#routeForm input[type="time"] {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.5rem;
+}
+
+#jamDisplay {
+    font-weight: 600;
+    color: #0d6efd;
+}

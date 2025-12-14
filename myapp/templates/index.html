@@ -1,0 +1,226 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Cari Rute Transjakarta{% endblock %}
+
+{% block content %}
+<div class="card shadow-sm p-4 border-0 mb-4 rounded-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h4 class="fw-bold mb-0">Cari Rute Transjakarta</h4>
+    <a href="{% url 'analytics' %}" class="btn btn-outline-secondary btn-sm">
+        Lihat Log Evaluasi 📊
+    </a>
+  </div>
+
+  <form method="POST" id="routeForm" class="row g-3 align-items-end">
+    {% csrf_token %}
+    <div class="col-md-3">
+      <label for="halteAsal" class="form-label">Dari (Halte Asal)</label>
+      <input type="text" id="halteAsal" name="halte_asal" class="form-control" placeholder="Contoh: Grogol Reformasi"
+        list="halteList" value="{{ form.halte_asal.value | default_if_none:'' }}">
+    </div>
+
+    <div class="col-md-3">
+      <label for="halteTujuan" class="form-label">Ke (Halte Tujuan)</label>
+      <input type="text" id="halteTujuan" name="halte_tujuan" class="form-control" placeholder="Contoh: Bundaran HI"
+        list="halteList" value="{{ form.halte_tujuan.value | default_if_none:'' }}">
+    </div>
+
+    <div class="col-md-2">
+            <label for="preferensi" class="form-label">Preferensi Rute</label>
+            <select id="preferensi" name="preferensi" class="form-select">
+                <option value="efisien" {% if form.preferensi.value == 'efisien' %}selected{% endif %}>Seimbang</option>
+                <option value="min_transit" {% if form.preferensi.value == 'min_transit' %}selected{% endif %}>Minim Transit</option>
+                <option value="cepat" {% if form.preferensi.value == 'cepat' %}selected{% endif %}>Tercepat</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <label for="jamBerangkat" class="form-label">Jam Keberangkatan</label>
+            <input type="time" id="jamBerangkat" name="jam_berangkat" class="form-control"
+                   value="{% if form.is_bound and form.jam_berangkat.value %}{{ form.jam_berangkat.value | date:'H:i' }}{% else %}{{ form.initial.jam_berangkat | default:'07:00' }}{% endif %}">
+        </div>
+
+        <div class="col-md-1">
+            <label for="metodeSolver" class="form-label">Metode Solver</label>
+            <select id="metodeSolver" name="metode_solver" class="form-select">
+                <option value="milp" {% if form.metode_solver.value == 'milp' %}selected{% endif %}>MILP</option>
+                <option value="sma" {% if form.metode_solver.value == 'sma' %}selected{% endif %}>SMA</option>
+            </select>
+        </div>
+
+    <div class="col-md-1 d-grid">
+      <button type="submit" class="btn btn-primary fw-semibold">Cari</button>
+    </div>
+    <datalist id="halteList"></datalist>
+  </form>
+</div>
+
+{% if hasil.error %}
+<div class="alert alert-danger shadow-sm" role="alert">
+  <h5 class="alert-heading">🚫 Terjadi Kesalahan!</h5>
+  <p>{{ hasil.error }}</p>
+  <hr>
+  <p class="mb-0">Silakan periksa kembali input Anda dan coba lagi.</p>
+</div>
+{% endif %}
+
+{% if hasil.detailed_journey %}
+<section id="hasilPencarian">
+  
+  {% if hasil.origin_info.is_walk %}
+  <div class="alert alert-info shadow-sm" role="alert">
+    <h5 class="alert-heading">🚶‍♂️ Rekomendasi Rute Lebih Cepat!</h5>
+    <p>
+      Hasil tercepat ditemukan dengan berjalan kaki sekitar <strong>{{ hasil.origin_info.walk_time_min }} menit</strong> 
+      ({{ hasil.origin_info.walk_dist_km_fmt }} km) dari 
+      '{{ hasil.origin_info.original_start }}' ke halte <strong>'{{ hasil.origin_info.start_halte }}'</strong> 
+      untuk memulai perjalanan bus Anda.
+    </p>
+    <hr>
+    <p class="mb-0">Detail perjalanan di bawah ini dimulai dari halte <strong>{{ hasil.origin_info.start_halte }}</strong>.</p>
+  </div>
+  {% endif %}
+  <div class="card border-success shadow-sm mb-4">
+    <div class="card-header bg-success text-white fw-bold">
+        {{ hasil.preferensi_label | default:"Hasil Rekomendasi" }}
+    </div>
+    <div class="card-body">
+      <p><strong>Total Waktu Perjalanan:</strong> {{ hasil.waktu_total_fmt }}
+         {% if hasil.origin_info.is_walk or hasil.initial_wait_min > 0 %}
+           <span class="text-muted small">
+               (Termasuk 
+               {% if hasil.origin_info.is_walk %}
+                   {{ hasil.origin_info.walk_time_min }} menit jalan
+               {% endif %}
+               {% if hasil.origin_info.is_walk and hasil.initial_wait_min > 0 %}
+                   + 
+               {% endif %}
+               {% if hasil.initial_wait_min > 0 %}
+                   {{ hasil.initial_wait_min }} menit tunggu
+               {% endif %}
+               )
+           </span>
+         {% endif %}
+      </p>
+      <p><strong>Waktu di Bus:</strong> {{ hasil.waktu_normal_fmt }}
+        <span class="text-muted">(Macet: {{ hasil.waktu_macet_fmt }})</span>
+        <span class="text-muted small fst-italic">(Sudah termasuk waktu tunggu transit)</span>
+      </p>
+      <p><strong>Total Biaya:</strong> {{ hasil.biaya_fmt }}</p>
+      <p><strong>Jam Berangkat:</strong> {{ hasil.jam_berangkat }}</p>
+      <p><strong>Jumlah Transit:</strong>
+        {% if hasil.jumlah_transit == 0 %}
+        Tidak ada transit
+        {% elif hasil.jumlah_transit %}
+        {{ hasil.jumlah_transit }} kali
+        {% else %}
+        N/A
+        {% endif %}
+      </p>
+      <hr>
+      <h6 class="fw-semibold">DETAIL PERJALANAN:</h6>
+      <ul>
+        {% for step in hasil.detailed_journey %}
+        {% if step.type == "travel" %}
+        <li>
+          <strong>Naik:</strong> Koridor {{ step.koridor }}<br>
+          <span>Dari: {{ step.dari }}</span><br>
+          <span>Melewati:
+            {% if step.melewati and step.melewati|length > 0 %}
+            {{ step.melewati|join:" → " }}
+            {% else %}
+            <em>(langsung tanpa halte antara)</em>
+            {% endif %}
+          </span><br>
+          <span>Ke: {{ step.ke }}</span>
+        </li>
+        {% elif step.type == "transfer" %}
+        <li>
+          <strong>🔄 Transit:</strong> {{ step.halte }}
+          <span class="text-muted">({{ step.dari_koridor }} → {{ step.ke_koridor }})</span>
+          {% if step.is_difficult is not None %}
+          {% if step.is_difficult %}
+          <span class="badge bg-warning text-dark ms-2">⚠️ Perlu Jalan Jauh/Menyeberang</span>
+          {% else %}
+          <span class="badge bg-light text-dark ms-2">✅ Mudah</span>
+          {% endif %}
+          {% endif %}
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="card shadow-sm mb-4">
+    <div class="card-body">
+      <h6 class="fw-semibold mb-3">🗺️ Visualisasi Rute Rekomendasi</h6>
+      <div id="mapRekomendasi" style="height: 600px; border-radius: 10px;"></div>
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}
+
+
+{% block scripts %}
+{% if hasil_json %}
+<script id="hasilData" type="application/json">
+    {{ hasil_json|safe }}
+</script>
+{% endif %}
+
+<script>
+  let hasil = {};
+  try {
+    const hasilEl = document.getElementById("hasilData");
+    if (hasilEl) hasil = JSON.parse(hasilEl.textContent);
+  } catch (e) { console.error("Gagal parsing hasil JSON:", e); }
+  const pathCoords = hasil.path_coords || [];
+  console.log("✅ hasil dari Django:", hasil); // Untuk debug di console browser
+</script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="{% static 'js/map.js' %}"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const halteInput = document.getElementById("halteAsal");
+    const halteTujuanInput = document.getElementById("halteTujuan");
+    const halteList = document.getElementById("halteList");
+
+    // Fungsi Autocomplete (Termasuk logika disable jika halte sama)
+    async function fetchHalteSuggestions(query, activeInput) {
+      if (!query || query.length < 2) return;
+      const otherInput = (activeInput.id === 'halteAsal') ? halteTujuanInput : halteInput;
+      const otherValue = otherInput.value;
+      try {
+        const response = await fetch(`/api/halte/?q=${encodeURIComponent(query)}`);
+        if (!response.ok) return;
+        const halteNames = await response.json();
+        halteList.innerHTML = ""; // Hapus opsi lama
+        halteNames.forEach(name => {
+          const option = document.createElement("option");
+          option.value = name;
+          if (name === otherValue) { // Logika disable
+            option.disabled = true;
+          }
+          halteList.appendChild(option);
+        });
+      } catch (error) {
+        console.error("Gagal mengambil data halte:", error);
+      }
+    }
+
+    let timeout = null;
+    function debounceFetch(inputElement) { // Terima elemen
+      clearTimeout(timeout);
+      timeout = setTimeout(() => fetchHalteSuggestions(inputElement.value, inputElement), 250); // Kirim elemen
+    }
+
+    halteInput.addEventListener("input", e => debounceFetch(e.target));
+    halteTujuanInput.addEventListener("input", e => debounceFetch(e.target));
+  });
+</script>
+{% endblock %}
